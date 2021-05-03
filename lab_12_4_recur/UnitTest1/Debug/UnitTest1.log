@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  UnitTest1.cpp
+C:\Users\Arsen\source\repos\lab_12_4_recur\lab_12_4_recur\lab_12_4_recur.cpp(134): warning C4715: Count: значение возвращается не при всех путях выполнения
+     Создается библиотека C:\Users\Arsen\source\repos\lab_12_4_recur\Debug\UnitTest1.lib и объект C:\Users\Arsen\source\repos\lab_12_4_recur\Debug\UnitTest1.exp
+  UnitTest1.vcxproj -> C:\Users\Arsen\source\repos\lab_12_4_recur\Debug\UnitTest1.dll
