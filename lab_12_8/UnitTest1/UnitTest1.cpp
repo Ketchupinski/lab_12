@@ -12,23 +12,10 @@ namespace UnitTest1
 		
 		TEST_METHOD(TestMethod1)
 		{
-			Elem* one;
-			one = new Elem;
+			Elem* one = NULL;
+			Elem* last = NULL;
 
-			one->punktOne = "Mel";
-			one->punktTwo = "Gibson";
-			one->next = new Elem;
-
-			one->next->punktOne = "You";
-			one->next->punktTwo = "Tu";
-			one->next->next = new Elem;
-
-			one->next->next->punktOne = "Geovani";
-			one->next->next->punktTwo = "Jeorjeo";
-			one->next->next->next = one;
-			Elem* last = one->next->next->next;
-
-			insert(one, last, "Mike", "Lucky", 100);
+			insert(one, last, "Mike", 100);
 
 			Assert::AreEqual(last->distance, 100);
 		}
